@@ -127,3 +127,18 @@ form .user-details{
   button:hover{
       background-color: rgb(106, 106, 250);
   }
+ 
+ @media(max-width: 584px){
+  .container{
+   max-width: 100%;
+ }
+ form .user-details .input-box{
+     margin-bottom: 15px;
+     width: 100%;
+   }
+   form .category{
+     width: 100%;
+   }
+ }
+
+ 
